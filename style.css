@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main-img img{
+    width: 33rem;
+    height: 20rem;
+    margin-top: 6rem;
+}
+
+.name{
+    color: aliceblue;
+    font-family: "Lexend", sans-serif;
+}
+
+.name .span1{
+    color: blueviolet;
+    font-size: 50px;
+}
+.name .span2{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.gif-img {
+    width: 10rem;
+    height: 7rem;
+    margin-top: 2rem;
+    margin-left: 42rem;
+    display: none;
+}
+
+.mic-btn{
+    padding:13px 12px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    width: 16rem;
+    height: 3rem;
+    margin-left: 40rem;
+    margin-top: 2rem;
+    color: aliceblue;
+    transition: 0.3s ease-in-out 0.3s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mic-btn:hover{
+    box-shadow: 0 0 17px blueviolet;
+    padding: 14px 14px ;
+}
